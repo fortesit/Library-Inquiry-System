@@ -1,0 +1,89 @@
+* {
+	font-family: 'Verdana', 'Tahoma', 'Arial'; 
+	font-size: 9pt; 
+	color: #000000;
+}
+
+body{
+	background-color: #FFF;
+	margin: 0px;
+	text-align: center;
+}
+
+table{ 
+	border-collapse: collapse;
+}
+
+table#bookList th{
+	text-align: left;
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	padding: 5px;
+	color: #FFF;
+	background-color: #555;
+	white-space:nowrap;
+	height: 45px;
+}
+
+table#bookListContent td{
+	text-align: left;
+	border-bottom: 1px solid #999;
+	padding: 5px;
+	background-color: #EEE;
+	height: 60px;
+}
+
+div#main{
+	margin-top: 5px;
+	width: 910px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+div#content{
+	background-color: #FFF;
+	width: 870px !important;
+	width: 910px;
+	padding: 20px;
+	line-height: 18px;
+	text-align: center;
+}
+
+div#searchBar{
+	background-color: #DDDDDD;
+	width: 610px !important;
+	width: 630px;
+	border-radius: 10px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+div#bookList{
+	text-align: left;
+}
+
+div#bpp{
+	text-align: right;
+	padding: 5px;
+	color: #333;
+	font-weight: bold;
+}
+
+div#bookcount{
+	text-align: right;
+	padding: 5px;
+	color: #333;
+	font-weight: bold;
+}
+
+button.general{
+	border: 1px solid #333;
+	background-color: #DDD;
+	color: #333;
+}
+
+button.current{
+	border: 1px solid #333;
+	background-color: #555;
+	color: #FFF;
+}
